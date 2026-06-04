@@ -81,7 +81,7 @@ const Menu = () => {
   <div className="profile-dropdown">
     <p onClick={() => {
       localStorage.removeItem("token");
-      window.location.href = "http://localhost:3000";
+window.location.href = "https://zerodha-clone-lovat-eight.vercel.app";
     }}
     style={{ cursor: "pointer", color: "red", padding: "8px" }}>
       Logout
