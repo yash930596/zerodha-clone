@@ -21,7 +21,7 @@ const handleLogin = async (e) => {
 
     // ✅ Save token and go to dashboard
     localStorage.setItem("token", token);
-    window.location.href = `http://localhost:3001?token=${token}`;
+   window.location.href = `https://zerodha-clone-35hm.vercel.app?token=${token}`;
 
   } catch (error) {
     alert(error.response?.data?.message || "Login failed. Please try again.");
