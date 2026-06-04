@@ -12,7 +12,7 @@ const handleLogin = async (e) => {
   e.preventDefault();
 
   try {
-    const response = await axios.post("http://localhost:3002/login", {
+    const response = await axios.post("https://zerodha-clone-3o2d.onrender.com/login", {
       email,
       password,
     });
